@@ -9,15 +9,8 @@ A business you are working with has a public key that they are hoping to distrib
 
 Specifically, you must address the following rubric criteria:
 
-Algorithm Cipher: Recommend an appropriate encryption algorithm cipher that avoids collisions.
-a) To do so, review the scenario and the Java Security Standard Algorithm Names, which is a standard list of algorithm ciphers provided by Oracle.
-b. Document your recommendation in the template provided.
-
-Justification: Justify your reasoning for the recommended algorithm cipher that avoids collisions.
-a. To do so, provide a brief, high-level overview of the encryption algorithm software. Consider what it means to avoid collisions. Why is this important?
-b. Document your reasoning in the template provided.
-
 Generate Checksum: Refactor the code to encrypt a text string and generate a checksum verification.
+
 a. To do so, first download the Module Five Coding Assignment Checksum Verification Code Base, linked in the Supporting Materials section, and upload it to Eclipse as a new project. Refactor the code to add your first and last name as a unique data string. You will submit your refactored code for your instructor to review. Then generate the checksum by following these steps:
 1. Create an object of MessageDigest class using the java.security.MessageDigest library.
 2. Initialize the object with your selection for an appropriate algorithm cipher.
@@ -26,5 +19,7 @@ a. To do so, first download the Module Five Coding Assignment Checksum Verificat
 5. Create a RESTFul route using the @RequestMapping method to generate and return the required information to the web browser, including the hash value.
 
 Verification: Demonstrate that a hash value has been created for the unique text string (your first and last name) by executing the Java code.
+
 a. Then use your web browser to connect to the RESTful API server. It should show your first and last name as the unique data string in the browser, the name of the algorithm cipher you used, and the checksum hash value.
+
 b. Capture a screenshot of the web browser with your unique information and add it to the template provided. An example of the expected output is shown below:
