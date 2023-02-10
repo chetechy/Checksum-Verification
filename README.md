@@ -10,7 +10,7 @@ A business you are working with has a public key that they are hoping to distrib
 Specifically, you must address the following rubric criteria:
 
 Algorithm Cipher: Recommend an appropriate encryption algorithm cipher that avoids collisions.
-a. To do so, review the scenario and the Java Security Standard Algorithm Names, which is a standard list of algorithm ciphers provided by Oracle.
+a) To do so, review the scenario and the Java Security Standard Algorithm Names, which is a standard list of algorithm ciphers provided by Oracle.
 b. Document your recommendation in the template provided.
 
 Justification: Justify your reasoning for the recommended algorithm cipher that avoids collisions.
